@@ -1,10 +1,6 @@
 import streamlit as st
 import os
 from openai import OpenAI
-from concurrent.futures import ThreadPoolExecutor
-from tqdm import tqdm
-import concurrent
-from eml_parser import EmlParser
 
 # Initialize OpenAI client
 client = OpenAI(
